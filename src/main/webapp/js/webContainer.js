@@ -7,7 +7,7 @@ var globalVar={
 $(document).ready(
 		function()
 		{
-			alert(typeof $("#userName").val());
-			$("#userName").hide();
+			var sendDate=$.datepicker.parseDate( "yy-mm-dd", "20070126" );
+			alert(sendDate.getTime());
 		}
 );

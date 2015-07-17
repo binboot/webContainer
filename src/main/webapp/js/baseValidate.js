@@ -12,6 +12,6 @@ baseValidate.commonMethod={
 		}
 }
 
-baseValidate.event={
-		
-}
+(function(){
+	
+})();

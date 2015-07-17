@@ -7,8 +7,16 @@
 <script type="text/javascript" src="/js/jquery-ui-1.11.4/jquery-ui.js"></script>
 <script type="text/javascript" src="/js/jquery-dateFormat.js"></script>
 <script type="text/javascript" src="/js/webContainer.js"></script>
+<script type="text/javascript" src="/js/baseEntity.js"></script>
 <title>webContainer</title>
 </head>
 <body>
+<script type="text/javascript">
+	//用非new方式调用
+	baseEntity.domains.person.syHello("binboot");
+	//用new调用
+	var user1=new baseEntity.domains.user("sunxin");
+	user1.syHello();
+</script>
 </body>
 </html>

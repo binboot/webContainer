@@ -7,7 +7,8 @@ var globalVar={
 $(document).ready(
 		function()
 		{
-			var sendDate=$.datepicker.parseDate( "yy-mm-dd", "20070126" );
-			alert(sendDate.getTime());
+			var nowDate;
+			alert(typeof nowDate);
+			alert(nowDate);
 		}
 );
